@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Raleway');
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    font-family: 'Raleway', sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+section,
+main,
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+body .containermy {
+    max-width: 1040px;
+}
+.game-container {
+    z-index: 1050;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.game-start-stop {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 4px;
+    justify-content: center;
+}
+
+.btn-link {
+    color: #212529;
+}
